@@ -5,11 +5,11 @@ This project is a website created for showcasing and purchasing NFTs (Non-Fungib
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 <h1> Technologies </h1>
-HTML — the main structure of the web pages.
-
-CSS — styling and page layout.
-
-JavaScript — for dynamic elements and user interaction.
+<ul>
+  <li>HTML — the main structure of the web pages.</li>
+  <li>CSS — styling and page layout.</li>
+  <li>JavaScript — for dynamic elements and user interaction.</li>
+</ul>
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Features
