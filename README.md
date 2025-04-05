@@ -9,6 +9,7 @@ HTML — the main structure of the web pages.
 CSS — styling and page layout.
 
 JavaScript — for dynamic elements and user interaction.
+
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Features
 The website has a simple and intuitive navigation system.
