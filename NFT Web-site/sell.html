@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="theme-color" content="#353535">
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no" />
+    <link rel="stylesheet" href="assets/css/reset.css" type="text/css" />
+    <link rel="stylesheet" href="assets/css/jquery-ui.min.css" type="text/css" />
+    <link rel="stylesheet" href="assets/css/nice-select.css" type="text/css" />
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" type="text/css" />
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+    <link rel="shortcut icon" href="assets/img/logo.svg" type="image/x-icon">
+    <title>Lemon School</title>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <a class="logotype" href="index.html">
+            <picture>
+                <source media="(min-width: 767.9px)" srcset="assets/img/logo.svg">
+                <img src="assets/img/logo-header-mobile.svg" alt="logo">
+            </picture>
+        </a>
+            <div class="mobile-container">
+                <nav class="header-nav">
+                    <ul class="nav-list">
+                        <li class="nav-item"><a href="discover.html">discover</a></li>
+                        <li class="nav-item"><a href="creators.html">creators</a></li>
+                        <li class="nav-item"><a href="sell.html">sell</a></li>
+                        <li class="nav-item"><a href="stats.html">stats</a></li>
+                        <ul>
+                </nav>
+                <form class="header-search">
+                    <input type="search" placeholder="Search Art Work / Creator">
+                </form>
+                <a href="wallet.html" class="btn btn-primary">Connect Wallet</a>
+            </div>
+            <button type="button" class="burger"><span></span></button>
+        </div>
+    </header>
+
+    <div class="sell">
+        <div class="container">
+            <h2 class="section-title">Create Your NFT</h2>
+            <form class="form-registration">
+                <div class="left">
+                    <fieldset>
+                        <h5>Name</h5>
+                        <input type="text" placeholder="ArtWork Name">
+                        <h5>Description</h5>
+                        <textarea class="description" placeholder="Enter Your Description"></textarea>
+                    </fieldset>
+                    <fieldset class="sizing">
+                        <div class="royalty">
+                            <h5>Royalty</h5>
+                            <select>
+                                <option value="royalty" data-display="Royalty"></option>
+                                <option value="10%">10%</option>
+                                <option value="25%">25%</option>
+                                <option value="50%">50%</option>
+                                <option value="75%">75%</option>
+                                <option value="100%">100%</option>
+                            </select>
+                        </div>
+                        <div class="size">
+                            <h5>Size</h5>
+                            <input type="text" placeholder="Ex - 100 x 100">
+                        </div>
+                    </fieldset>
+                    <fieldset>
+                        <h5>Tags</h5>
+                        <input type="text" placeholder="Beautiful Castle, Monkeys ETC">
+                    </fieldset>
+                    <fieldset class="price-in-stock">
+                        <div class="price-crypto">
+                            <h5>Price</h5>
+                            <div class="joint">
+                                <select name="crypto">
+                                    <option value="cryptocurrency">Eth</option>
+                                    <option value="tether">Tet</option>
+                                    <option value="cardano">Car</option>
+                                    <option value="ripple">Rip</option>
+                                </select>
+                                <input class="etc" type="text" placeholder="0.00007 ETC"></input>
+                            </div>
+                        </div>
+                        <div class="in-stock">
+                            <h5>In Stock</h5>
+                            <select name="stock">
+                                <option value="1">001</option>
+                                <option value="2">002</option>
+                                <option value="3">003</option>
+                                <option value="4">004</option>
+                                <option value="5">005</option>
+                                <option value="6">006</option>
+                                <option value="7">007</option>
+                                <option value="8">008</option>
+                                <option value="9">009</option>
+                                <option value="10">010</option>
+                            </select>
+                        </div>
+                    </fieldset>
+                    <fieldset class="on-sale">
+                        <div class="put-on-sale">
+                            <h5>Put On Sale</h5>
+                            <div class="toggle-checkbox">
+                                <input id="put" type="checkbox" name="sale">
+                                <label for="put">People Will Bids On Your NFT Project</label>
+                            </div>
+                        </div>
+                        <div class="direct-sale">
+                            <h5>Direct Sale</h5>
+                            <div class="toggle-checkbox">
+                                <input id="direct" type="checkbox" name="sale">
+                                <label for="direct">No Bids - Only Direct Salling</label>
+                            </div>
+                        </div>
+                    </fieldset>
+                    <button type="submit">Create</button>
+                </div>
+                <div class="right">
+                    <div id="drop-zone" class="control-input control-input--drop-zone">
+                        <input id="file-input" type="file" style="display: none;">
+                        <label for="file-input">
+                            <img src="assets/img/load.svg" alt="icon">
+                            <span>PNG, GIF, WEBP, MP4 or</span>
+                            <span>MP3. Max 1Gb.</span>
+                            <span data-for-dropzone></span>
+                        </label>
+                    </div>
+                    <button>Upload</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <footer>
+        <div class="container">
+            <div class="footer-top">
+                <a class="logotype" href="index.html">
+				<picture>
+					<source media="(min-width: 767.9px)" srcset="assets/img/logo-footer.svg">
+					<img src="assets/img/logo-footer-mobile.svg" alt="logo">
+				</picture>
+			</a>
+                <nav class="footer-nav">
+                    <ul class="footer-nav-list">
+                        <li class="footer-nav-item"><a href="#">Privacy Policy</a></li>
+                        <li class="footer-nav-item"><a href="#">Term & Conditions</a></li>
+                        <li class="footer-nav-item"><a href="#">About Us</a></li>
+                        <li class="footer-nav-item"><a href="#">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="footer-bottom">
+                <div class="copywrite">© 2023 EATLY All Rights Reserved.</div>
+                <nav class="footer__social">
+                    <a href="#">
+					<svg>
+						<use href="#instagram"></use>
+					</svg>
+				</a>
+                    <a href="#">
+					<svg>
+						<use href="#linkedin"></use>
+					</svg>
+				</a>
+                    <a href="#">
+					<svg>
+						<use href="#facebook"></use>
+					</svg>
+				</a>
+                    <a href="#">
+					<svg>
+						<use href="#X"></use>
+					</svg>
+				</a>
+                </nav>
+            </div>
+        </div>
+        <svg class="d-none" viewBox="0 0 1 1" xmlns="http://www.w3.org/2000/svg">
+            <symbol id="instagram" viewBox="0 0 22 22" fill="currentcolor" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M10.9477 0C12.4113 0.0520824 13.9271 0.0520824 15.3907 0.104158C16.6975 0.156233 17.8997 0.364547 19.0496 1.04156C20.5132 1.92688 21.4018 3.22883 21.7154 4.89532C21.8722 5.8848 21.9245 6.92635 21.9768 7.91584C22.029 10.1031 21.9768 12.2904 21.9768 14.4776C21.9768 15.6234 21.9245 16.7691 21.5586 17.8627C20.8268 19.9979 19.311 21.2998 17.1156 21.7165C16.1225 21.9248 15.0771 21.9248 14.084 21.9769C11.8886 22.0289 9.74551 21.9769 7.55015 21.9769C6.40021 21.9769 5.25026 21.9248 4.15259 21.5602C2.0095 20.8311 0.702746 19.3209 0.284581 17.1336C0.0755038 16.1441 0.0755038 15.1026 0.0232326 14.1131C-0.0290408 11.9258 0.0232326 9.73856 0.0232326 7.55129C0.0232326 6.40558 0.0755037 5.25987 0.441395 4.16623C1.17318 2.03103 2.68902 0.729095 4.88437 0.31247C5.87751 0.104165 6.92292 0.104165 7.91605 0.0520824C8.90919 0 9.90232 0 10.9477 0V0ZM19.9908 10.7804C19.9908 10.7804 19.9385 10.7804 19.9908 10.7804C19.9385 9.89509 19.9385 9.06184 19.9385 8.17651C19.9385 7.34328 19.8863 6.51002 19.7817 5.67678C19.5726 3.80197 18.475 2.5521 16.6455 2.18756C15.7046 1.97925 14.6592 1.97925 13.7184 1.97925C11.8366 1.92717 10.0072 1.92717 8.12544 1.97925C7.18458 1.97925 6.24371 2.03132 5.35511 2.18756C3.787 2.44795 2.68933 3.33327 2.2189 4.89561C2.06209 5.41639 2.00982 5.93717 1.95754 6.45794C1.90527 8.43691 1.90527 10.4159 1.90527 12.3948C1.90527 13.6447 1.95754 14.9466 2.06209 16.1965C2.2189 18.0713 3.36884 19.3733 5.25058 19.6857C6.19144 19.8419 7.18458 19.894 8.17771 19.894C10.0072 19.9461 11.8366 19.894 13.7184 19.894C14.5547 19.894 15.391 19.8419 16.2273 19.7378C17.0114 19.6857 17.7432 19.4253 18.3704 18.9046C19.4158 18.0713 19.7817 16.9777 19.834 15.7278C19.9385 14.1655 19.9385 12.499 19.9908 10.7804Z" />
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M16.7465 10.9881C16.7465 14.1128 14.2375 16.6125 11.1013 16.6125C7.96503 16.6125 5.45605 14.1128 5.45605 10.9361C5.45605 7.86349 8.0173 5.36377 11.1535 5.36377C14.2375 5.36377 16.7465 7.86349 16.7465 10.9881ZM11.1006 14.6333C13.0868 14.6333 14.7595 12.9668 14.7595 10.9879C14.7595 9.00892 13.0868 7.34243 11.1006 7.34243C9.06201 7.34243 7.44162 9.00892 7.44162 10.9879C7.38936 12.9668 9.06201 14.6333 11.1006 14.6333Z" />
+                <path d="M18.264 5.10322C18.264 5.83232 17.689 6.45726 16.9572 6.45726C16.2255 6.45726 15.5982 5.83232 15.6505 5.10322C15.6505 4.37413 16.2255 3.80127 16.9572 3.80127C17.689 3.80127 18.264 4.37413 18.264 5.10322Z" />
+            </symbol>
+            <symbol id="linkedin" viewBox="0 0 22 22" fill="currentcolor" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M21.9951 13.4863V22.0004H17.3159V14.0456C17.3159 12.0569 16.6726 10.6897 14.9764 10.6897C13.6896 10.6897 12.9292 11.6219 12.5783 12.4919C12.4613 12.8027 12.4028 13.2377 12.4028 13.6727V22.0004H7.72369C7.72369 22.0004 7.78218 8.51452 7.72369 7.1473H12.4028V9.26029C12.4028 9.26029 12.4028 9.32242 12.3443 9.32242H12.4028V9.26029C13.0462 8.26594 14.099 6.77441 16.6141 6.77441C19.6555 6.77441 21.9951 8.94955 21.9951 13.4863V13.4863ZM2.92695 0C1.34773 0 0.294922 1.11864 0.294922 2.54802C0.294922 3.97739 1.28924 5.09605 2.86845 5.09605H2.92695C4.56465 5.09605 5.55897 3.9774 5.55897 2.54802C5.50048 1.11864 4.50616 0 2.92695 0V0ZM0.529401 22.0001H5.15007V7.14697H0.529401V22.0001Z" />
+            </symbol>
+            <symbol id="facebook" viewBox="0 0 22 22" fill="currentcolor" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M15.518 11.3881H12.5371V21.8001H8.09187V13.0916V11.3881H6V7.71327H8.09187V5.31442C8.09187 3.63012 8.92862 0.976074 12.5371 0.976074H15.8318V4.54882H13.4784C13.1124 4.54882 12.5371 4.75299 12.5371 5.56961V7.71327H15.8841L15.518 11.3881Z" />
+            </symbol>
+            <symbol id="X" viewBox="0 0 24 24" fill="currentcolor" xmlns="http://www.w3.org/2000/svg">
+                <path d="M 4.4042969 3 C 3.7572969 3 3.3780469 3.7287656 3.7480469 4.2597656 L 9.7363281 12.818359 L 3.7246094 19.845703 C 3.3356094 20.299703 3.6578594 21 4.2558594 21 L 4.9199219 21 C 5.2129219 21 5.4916406 20.871437 5.6816406 20.648438 L 10.919922 14.511719 L 14.863281 20.146484 C 15.238281 20.680484 15.849953 21 16.501953 21 L 19.835938 21 C 20.482937 21 20.862187 20.272188 20.492188 19.742188 L 14.173828 10.699219 L 19.900391 3.9902344 C 20.232391 3.6002344 19.955359 3 19.443359 3 L 18.597656 3 C 18.305656 3 18.027891 3.1276094 17.837891 3.3496094 L 12.996094 9.0097656 L 9.3945312 3.8554688 C 9.0205313 3.3194687 8.4098594 3 7.7558594 3 L 4.4042969 3 z" />
+            </symbol>
+            <symbol id="swiper-prev-arrow" viewBox="0 0 27 27" fill="currentcolor" xmlns="http://www.w3.org/2000/svg">
+                <path d="M11.2397 8.39036C10.8023 7.98657 10.1203 8.01384 9.71654 8.45128L6.23402 12.224C5.85287 12.6369 5.85286 13.2733 6.23401 13.6862L9.71653 17.459C10.1203 17.8965 10.8023 17.9237 11.2397 17.5199C11.6772 17.1161 11.7045 16.4342 11.3007 15.9967L9.48802 14.033L19.9611 14.033C20.5565 14.033 21.0391 13.5504 21.0391 12.9551C21.0391 12.3598 20.5565 11.8772 19.9611 11.8772L9.48805 11.8772L11.3007 9.91356C11.7044 9.47612 11.6772 8.79416 11.2397 8.39036Z" />
+            </symbol>
+            <symbol id="swiper-next-arrow" viewBox="0 0 27 27" fill="currentcolor" xmlns="http://www.w3.org/2000/svg">
+                <path d="M15.7603 8.39036C16.1977 7.98657 16.8797 8.01384 17.2835 8.45128L20.766 12.224C21.1471 12.6369 21.1471 13.2733 20.766 13.6862L17.2835 17.459C16.8797 17.8965 16.1977 17.9237 15.7603 17.5199C15.3228 17.1161 15.2955 16.4342 15.6993 15.9967L17.512 14.033L7.03886 14.033C6.44354 14.033 5.96094 13.5504 5.96094 12.9551C5.96094 12.3598 6.44354 11.8772 7.03886 11.8772L17.5119 11.8772L15.6993 9.91356C15.2956 9.47612 15.3228 8.79416 15.7603 8.39036Z" />
+            </symbol>
+            <symbol id="icon-widget-menu" viewBox="0 0 63 10" fill="currentcolor" xmlns="http://www.w3.org/2000/svg">
+                <ellipse cx="6.05765" cy="5" rx="6.05765" ry="5" />
+                <ellipse cx="32.6094" cy="5" rx="6.05765" ry="5" />
+                <ellipse cx="56.9424" cy="5" rx="6.05765" ry="5" />
+            </symbol>
+            <symbol id="layout-case__grid" viewBox="0 0 17 16" fill="#c5c5c5" xmlns="http://www.w3.org/2000/svg">
+                <rect x="0.5" y="0.5" width="16" height="15" rx="1.5" fill="white" />
+                <rect x="3.50049" y="3.49988" width="3.4" height="3.44444" rx="0.5" />
+                <rect x="3.5" y="9.05542" width="3.4" height="3.44444" rx="0.5" />
+                <rect x="10.1001" y="9.05542" width="3.4" height="3.44444" rx="0.5" />
+                <rect x="10.1001" y="3.49988" width="3.4" height="3.44444" rx="0.5" />
+            </symbol>
+            <symbol id="layout-case__list" viewBox="0 0 17 16" fill="currentcolor" xmlns="http://www.w3.org/2000/svg">
+                <rect x="0.5" y="0.5" width="16" height="15" rx="1.5" fill="white" />
+                <path d="M4 5H8.5H13" stroke-linecap="round" />
+                <path d="M4 8H8.5H13" stroke-linecap="round" />
+                <path d="M4 11H8.5H13" stroke-linecap="round" />
+            </symbol>
+            <symbol id="arrow-right" viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M4.98047 11.0703H17.8973 M11.4365 4.61328L17.8949 11.0717L11.4365 17.5301" stroke="currentcolor" stroke-width="1.84503" stroke-linecap="round" stroke-linejoin="round" />
+            </symbol>
+            <symbol id="arrows-down-up" viewBox="0 0 21 21" fill="currentcolor" xmlns="http://www.w3.org/2000/svg">
+                <path d="M15.0225 3.34912V18.2745" stroke="#1A202C" stroke-width="1.86567" stroke-linecap="round" stroke-linejoin="round" />
+                <path d="M9.21779 15.7869L6.73023 18.2744L4.24268 15.7869" stroke="#1A202C" stroke-width="1.86567" stroke-linecap="round" stroke-linejoin="round" />
+                <path d="M6.72998 18.2745V3.34912" stroke="#1A202C" stroke-width="1.86567" stroke-linecap="round" stroke-linejoin="round" />
+                <path d="M17.5103 5.83668L15.0227 3.34912L12.5352 5.83668" stroke="#1A202C" stroke-width="1.86567" stroke-linecap="round" stroke-linejoin="round" />
+            </symbol>
+        </svg>
+    </footer>
+
+    <script src="assets/js/jquery-3.7.1.min.js"></script>
+    <script src="assets/js/jquery.nice-select.min.js"></script>
+    <script src="assets/js/jquery.mask.min.js"></script>
+    <script src="assets/js/swiper-bundle.min.js"></script>
+    <script src="assets/js/widget.js"></script>
+    <script src="assets/js/accordion.js"></script>
+    <script src="assets/js/place-bid-modal.js"></script>
+    <script src="assets/js/tab.js"></script>
+    <script src="assets/js/drop-zone.js"></script>
+    <script src="assets/js/custom.js"></script>
+
+</body>
+
+</html>

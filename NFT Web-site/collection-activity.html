@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="theme-color" content="#353535">
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no" />
+    <link rel="stylesheet" href="assets/css/reset.css" type="text/css" />
+    <link rel="stylesheet" href="assets/css/jquery-ui.min.css" type="text/css" />
+    <link rel="stylesheet" href="assets/css/nice-select.css" type="text/css" />
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" type="text/css" />
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+    <link rel="shortcut icon" href="assets/img/logo.svg" type="image/x-icon">
+    <title>Lemon School</title>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <a class="logotype" href="index.html">
+            <picture>
+                <source media="(min-width: 767.9px)" srcset="assets/img/logo.svg">
+                <img src="assets/img/logo-header-mobile.svg" alt="logo">
+            </picture>
+        </a>
+            <div class="mobile-container">
+                <nav class="header-nav">
+                    <ul class="nav-list">
+                        <li class="nav-item"><a href="discover.html">discover</a></li>
+                        <li class="nav-item"><a href="creators.html">creators</a></li>
+                        <li class="nav-item"><a href="sell.html">sell</a></li>
+                        <li class="nav-item"><a href="stats.html">stats</a></li>
+                        <ul>
+                </nav>
+                <form class="header-search">
+                    <input type="search" placeholder="Search Art Work / Creator">
+                </form>
+                <a href="wallet.html" class="btn btn-primary">Connect Wallet</a>
+            </div>
+            <button type="button" class="burger"><span></span></button>
+        </div>
+    </header>
+
+    <main class="collection-activity">
+        <div class="container">
+            <img class="cap" src="assets/img/cap.png" alt="slide">
+            <img class="foto" src="assets/img/foto.png" alt="foto">
+            <div class="all-info">
+                <div class="info-about-creator">
+                    <div class="creator">
+                        <div class="user">
+                            <div class="name">Harry K.</div>
+                            <div class="handle">@Harryknft</div>
+                        </div>
+                        <button type="button" class="btn btn-primary">Follow +</button>
+                    </div>
+                    <div class="bio-foll">
+                        <div class="follow">
+                            <div class="sales">
+                                <h4 class="ethirium">86 ETH</h4>
+                                <div class="total-sales">Total Sales</div>
+                            </div>
+                            <div class="thousands">
+                                <h4 class="thousand">12K</h4>
+                                <div class="followers">Followers</div>
+                            </div>
+                            <div class="following">
+                                <h4 class="numeric">587</h4>
+                                <div class="followings">followings</div>
+                            </div>
+                        </div>
+                        <div class="bio-text">
+                            <div class="bio">Bio</div>
+                            <div class="text">the artist who transforms the intangible into priceless assets with
+                                their incredible NFT creations. From stunning visuals to mind-bending concepts.</div>
+                        </div>
+                    </div>
+                    <nav class="creator__social">
+                        <a href="#">
+                  <svg>
+                     <use href="#instagram"></use>
+                  </svg>
+               </a>
+                        <a href="#">
+                  <svg>
+                     <use href="#linkedin"></use>
+                  </svg>
+               </a>
+                        <a href="#">
+                  <svg>
+                     <use href="#facebook"></use>
+                  </svg>
+               </a>
+                        <a href="#">
+                  <svg>
+                     <use href="#X"></use>
+                  </svg>
+               </a>
+                    </nav>
+                </div>
+                <div class="tab">
+                    <div class="tabs">
+                        <nav class="tabs__nav">
+                            <div class="tabs__button">
+                                <svg width="22" height="19" viewBox="0 0 22 19" fill="currentcolor" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M19.3127 9.45684C19.3127 10.2645 20.0061 10.9217 20.8583 10.9217C21.2881 10.9217 21.6368 11.2523 21.6368 11.6596V14.3168C21.6368 16.5638 19.7082 18.3917 17.3374 18.3917H5.17724C2.80645 18.3917 0.876801 16.5638 0.876801 14.3168V11.6596C0.876801 11.2523 1.22557 10.9217 1.6553 10.9217C2.50854 10.9217 3.20192 10.2645 3.20192 9.45684C3.20192 8.66981 2.53657 8.07756 1.6553 8.07756C1.44874 8.07756 1.25152 7.99984 1.10516 7.86112C0.958803 7.72241 0.876801 7.5345 0.876801 7.33971L0.878877 4.5959C0.878877 2.3489 2.80748 0.52002 5.17828 0.52002H17.3354C19.7062 0.52002 21.6358 2.3489 21.6358 4.5959L21.6368 7.25412C21.6368 7.44891 21.5548 7.6378 21.4095 7.77553C21.2632 7.91425 21.0659 7.99197 20.8583 7.99197C20.0061 7.99197 19.3127 8.64915 19.3127 9.45684ZM13.5944 10.0995L14.8182 8.97007C15.031 8.77528 15.1047 8.48801 15.0123 8.22239C14.921 7.95676 14.6822 7.76787 14.3937 7.7295L12.7028 7.49536L11.9461 6.04327C11.8163 5.79339 11.5527 5.63795 11.2589 5.63696H11.2568C10.9641 5.63696 10.7005 5.79241 10.5686 6.04229L9.81193 7.49536L8.12414 7.72852C7.83246 7.76787 7.59372 7.95676 7.50134 8.22239C7.40999 8.48801 7.48369 8.77528 7.69544 8.97007L8.91925 10.0995L8.63068 11.6962C8.58086 11.9716 8.69815 12.2451 8.93689 12.4094C9.07183 12.5009 9.22857 12.5481 9.38739 12.5481C9.50883 12.5481 9.63132 12.5196 9.74342 12.4635L11.2568 11.71L12.7671 12.4616C13.0287 12.5944 13.3391 12.5737 13.5768 12.4084C13.8165 12.2451 13.9338 11.9716 13.884 11.6962L13.5944 10.0995Z" />
+                                </svg>
+                                Collection
+                            </div>
+                            <div class="tabs__button active">
+                                <svg width="19" height="19" viewBox="0 0 19 19" fill="currentcolor" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M0.71666 9.45628C0.71666 4.47387 4.75133 0.430176 9.74276 0.430176C14.7252 0.430176 18.7689 4.47387 18.7689 9.45628C18.7689 14.4477 14.7252 18.4824 9.74276 18.4824C4.75133 18.4824 0.71666 14.4477 0.71666 9.45628ZM11.7556 11.1078L13.2178 6.48648C13.3171 6.17056 13.0283 5.8727 12.7123 5.97199L8.09098 7.41617C7.90143 7.47935 7.74799 7.62377 7.69383 7.81331L6.24965 12.4437C6.15037 12.7506 6.44823 13.0485 6.75512 12.9492L11.3584 11.505C11.548 11.4508 11.7014 11.2974 11.7556 11.1078Z" />
+                                </svg>
+                                Activity
+                            </div>
+                        </nav>
+                        <div class="tabs__content collection">
+                            <div class="product">
+                                <div class="product-img">
+                                    <img src="assets/img/slide2.svg" alt="product">
+                                </div>
+                                <div class="product-title">Sun-Glass</div>
+                                <div class="product-bid-title">Current Bid</div>
+                                <div class="product-bid">
+                                    <i class="icon icon-sm icon-etherium"></i>
+                                    <i class="icon icon-xxs icon-etherium"></i>1.75
+                                </div>
+                                <a href="place-bid.html" class="btn btn-primary">PLACE BID</a>
+                            </div>
+                            <div class="product">
+                                <div class="product-img">
+                                    <img src="assets/img/slide1.svg" alt="product">
+                                </div>
+                                <div class="product-title">Sun-Glass</div>
+                                <div class="product-bid-title">Current Bid</div>
+                                <div class="product-bid">
+                                    <i class="icon icon-sm icon-etherium"></i>
+                                    <i class="icon icon-xxs icon-etherium"></i>1.75
+                                </div>
+                                <a href="place-bid.html" class="btn btn-primary">PLACE BID</a>
+                            </div>
+                            <div class="product">
+                                <div class="product-img">
+                                    <img src="assets/img/slide3.svg" alt="product">
+                                </div>
+                                <div class="product-title">Sun-Glass</div>
+                                <div class="product-bid-title">Current Bid</div>
+                                <div class="product-bid">
+                                    <i class="icon icon-sm icon-etherium"></i>
+                                    <i class="icon icon-xxs icon-etherium"></i>1.75
+                                </div>
+                                <a href="place-bid.html" class="btn btn-primary">PLACE BID</a>
+                            </div>
+                            <div class="product">
+                                <div class="product-img">
+                                    <img src="assets/img/slide4.svg" alt="product">
+                                </div>
+                                <div class="product-title">NuEvey</div>
+                                <div class="product-bid-title">Current Bid</div>
+                                <div class="product-bid">
+                                    <i class="icon icon-sm icon-etherium"></i>
+                                    <i class="icon icon-xxs icon-etherium"></i>1.75
+                                </div>
+                                <a href="place-bid.html" class="btn btn-primary">PLACE BID</a>
+                            </div>
+                            <div class="product">
+                                <div class="product-img">
+                                    <img src="assets/img/slide5.svg" alt="product">
+                                </div>
+                                <div class="product-title">NuEvey</div>
+                                <div class="product-bid-title">Current Bid</div>
+                                <div class="product-bid">
+                                    <i class="icon icon-sm icon-etherium"></i>
+                                    <i class="icon icon-xxs icon-etherium"></i>1.75
+                                </div>
+                                <a href="place-bid.html" class="btn btn-primary">PLACE BID</a>
+                            </div>
+                            <div class="product">
+                                <div class="product-img">
+                                    <img src="assets/img/slide1.svg" alt="product">
+                                </div>
+                                <div class="product-title">Sun-Glass</div>
+                                <div class="product-bid-title">Current Bid</div>
+                                <div class="product-bid">
+                                    <i class="icon icon-sm icon-etherium"></i>
+                                    <i class="icon icon-xxs icon-etherium"></i>1.75
+                                </div>
+                                <a href="place-bid.html" class="btn btn-primary">PLACE BID</a>
+                            </div>
+                        </div>
+                        <div class="tabs__content activity active">
+                            <div class="user">
+                                <div class="first-row">
+                                    <div class="user-info">
+                                        <img src="assets/img/slide5.svg" alt="avatar">
+                                        <div class="user-data">
+                                            <div class="user-name">NeuVey</div>
+                                            <div class="user-nickname">
+                                                <i>JenifferS</i>
+                                                <img src="assets/img/check-mark.svg"></img>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="sales">
+                                        <div class="sale">Sale</div>
+                                        <div class="price">
+                                            <i class="icon icon-xxs icon-etherium"></i>
+                                            <i class="icon icon-xs icon-etherium"></i>
+                                            <i>16,4</i>
+                                        </div>
+                                        <div class="time-ago">6 minutes ago</div>
+                                    </div>
+                                </div>
+                                <div class="second-row">
+                                    <div class="usd-price">
+                                        <div class="title">USD price</div>
+                                        <div class="numbers">$19K</div>
+                                    </div>
+                                    <div class="quantity">
+                                        <div class="title">Quantity</div>
+                                        <div class="numbers">14.9K</div>
+                                    </div>
+                                    <div class="floor-price">
+                                        <div class="title">Floor price</div>
+                                        <div class="floor">
+                                            <i class="icon icon-xxs icon-etherium"></i>
+                                            <i class="icon icon-xs icon-etherium"></i>
+                                            <i class="numbers">16,4</i>
+                                        </div>
+                                    </div>
+                                    <div class="traded">
+                                        <div class="title">traded</div>
+                                        <div class="trade">
+                                            <i class="icon icon-xxs icon-etherium"></i>
+                                            <i class="icon icon-xs icon-etherium"></i>
+                                            <i class="numbers">26,4</i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="user">
+                                <div class="first-row">
+                                    <div class="user-info">
+                                        <img src="assets/img/slide6.svg" alt="avatar">
+                                        <div class="user-data">
+                                            <div class="user-name">NeuVey</div>
+                                            <div class="user-nickname">
+                                                <i>JenifferS</i>
+                                                <img src="assets/img/check-mark.svg"></img>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="sales">
+                                        <div class="sale">Sale</div>
+                                        <div class="price">
+                                            <i class="icon icon-xxs icon-etherium"></i>
+                                            <i class="icon icon-xs icon-etherium"></i>
+                                            <i>16,4</i>
+                                        </div>
+                                        <div class="time-ago">6 minutes ago</div>
+                                    </div>
+                                </div>
+                                <div class="second-row">
+                                    <div class="usd-price">
+                                        <div class="title">USD price</div>
+                                        <div class="numbers">$19K</div>
+                                    </div>
+                                    <div class="quantity">
+                                        <div class="title">Quantity</div>
+                                        <div class="numbers">14.9K</div>
+                                    </div>
+                                    <div class="floor-price">
+                                        <div class="title">Floor price</div>
+                                        <div class="floor">
+                                            <i class="icon icon-xxs icon-etherium"></i>
+                                            <i class="icon icon-xs icon-etherium"></i>
+                                            <i class="numbers">16,4</i>
+                                        </div>
+                                    </div>
+                                    <div class="traded">
+                                        <div class="title">traded</div>
+                                        <div class="trade">
+                                            <i class="icon icon-xxs icon-etherium"></i>
+                                            <i class="icon icon-xs icon-etherium"></i>
+                                            <i class="numbers">26,4</i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="user">
+                                <div class="first-row">
+                                    <div class="user-info">
+                                        <img src="assets/img/slide2.svg" alt="avatar">
+                                        <div class="user-data">
+                                            <div class="user-name">NeuVey</div>
+                                            <div class="user-nickname">
+                                                <i>JenifferS</i>
+                                                <img src="assets/img/check-mark.svg"></img>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="sales">
+                                        <div class="sale">Sale</div>
+                                        <div class="price">
+                                            <i class="icon icon-xxs icon-etherium"></i>
+                                            <i class="icon icon-xs icon-etherium"></i>
+                                            <i>16,4</i>
+                                        </div>
+                                        <div class="time-ago">6 minutes ago</div>
+                                    </div>
+                                </div>
+                                <div class="second-row">
+                                    <div class="usd-price">
+                                        <div class="title">USD price</div>
+                                        <div class="numbers">$19K</div>
+                                    </div>
+                                    <div class="quantity">
+                                        <div class="title">Quantity</div>
+                                        <div class="numbers">14.9K</div>
+                                    </div>
+                                    <div class="floor-price">
+                                        <div class="title">Floor price</div>
+                                        <div class="floor">
+                                            <i class="icon icon-xxs icon-etherium"></i>
+                                            <i class="icon icon-xs icon-etherium"></i>
+                                            <i class="numbers">16,4</i>
+                                        </div>
+                                    </div>
+                                    <div class="traded">
+                                        <div class="title">traded</div>
+                                        <div class="trade">
+                                            <i class="icon icon-xxs icon-etherium"></i>
+                                            <i class="icon icon-xs icon-etherium"></i>
+                                            <i class="numbers">26,4</i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="spinner"></div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="footer-top">
+                <a class="logotype" href="index.html">
+				<picture>
+					<source media="(min-width: 767.9px)" srcset="assets/img/logo-footer.svg">
+					<img src="assets/img/logo-footer-mobile.svg" alt="logo">
+				</picture>
+			</a>
+                <nav class="footer-nav">
+                    <ul class="footer-nav-list">
+                        <li class="footer-nav-item"><a href="#">Privacy Policy</a></li>
+                        <li class="footer-nav-item"><a href="#">Term & Conditions</a></li>
+                        <li class="footer-nav-item"><a href="#">About Us</a></li>
+                        <li class="footer-nav-item"><a href="#">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="footer-bottom">
+                <div class="copywrite">© 2023 EATLY All Rights Reserved.</div>
+                <nav class="footer__social">
+                    <a href="#">
+					<svg>
+						<use href="#instagram"></use>
+					</svg>
+				</a>
+                    <a href="#">
+					<svg>
+						<use href="#linkedin"></use>
+					</svg>
+				</a>
+                    <a href="#">
+					<svg>
+						<use href="#facebook"></use>
+					</svg>
+				</a>
+                    <a href="#">
+					<svg>
+						<use href="#X"></use>
+					</svg>
+				</a>
+                </nav>
+            </div>
+        </div>
+        <svg class="d-none" viewBox="0 0 1 1" xmlns="http://www.w3.org/2000/svg">
+            <symbol id="instagram" viewBox="0 0 22 22" fill="currentcolor" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M10.9477 0C12.4113 0.0520824 13.9271 0.0520824 15.3907 0.104158C16.6975 0.156233 17.8997 0.364547 19.0496 1.04156C20.5132 1.92688 21.4018 3.22883 21.7154 4.89532C21.8722 5.8848 21.9245 6.92635 21.9768 7.91584C22.029 10.1031 21.9768 12.2904 21.9768 14.4776C21.9768 15.6234 21.9245 16.7691 21.5586 17.8627C20.8268 19.9979 19.311 21.2998 17.1156 21.7165C16.1225 21.9248 15.0771 21.9248 14.084 21.9769C11.8886 22.0289 9.74551 21.9769 7.55015 21.9769C6.40021 21.9769 5.25026 21.9248 4.15259 21.5602C2.0095 20.8311 0.702746 19.3209 0.284581 17.1336C0.0755038 16.1441 0.0755038 15.1026 0.0232326 14.1131C-0.0290408 11.9258 0.0232326 9.73856 0.0232326 7.55129C0.0232326 6.40558 0.0755037 5.25987 0.441395 4.16623C1.17318 2.03103 2.68902 0.729095 4.88437 0.31247C5.87751 0.104165 6.92292 0.104165 7.91605 0.0520824C8.90919 0 9.90232 0 10.9477 0V0ZM19.9908 10.7804C19.9908 10.7804 19.9385 10.7804 19.9908 10.7804C19.9385 9.89509 19.9385 9.06184 19.9385 8.17651C19.9385 7.34328 19.8863 6.51002 19.7817 5.67678C19.5726 3.80197 18.475 2.5521 16.6455 2.18756C15.7046 1.97925 14.6592 1.97925 13.7184 1.97925C11.8366 1.92717 10.0072 1.92717 8.12544 1.97925C7.18458 1.97925 6.24371 2.03132 5.35511 2.18756C3.787 2.44795 2.68933 3.33327 2.2189 4.89561C2.06209 5.41639 2.00982 5.93717 1.95754 6.45794C1.90527 8.43691 1.90527 10.4159 1.90527 12.3948C1.90527 13.6447 1.95754 14.9466 2.06209 16.1965C2.2189 18.0713 3.36884 19.3733 5.25058 19.6857C6.19144 19.8419 7.18458 19.894 8.17771 19.894C10.0072 19.9461 11.8366 19.894 13.7184 19.894C14.5547 19.894 15.391 19.8419 16.2273 19.7378C17.0114 19.6857 17.7432 19.4253 18.3704 18.9046C19.4158 18.0713 19.7817 16.9777 19.834 15.7278C19.9385 14.1655 19.9385 12.499 19.9908 10.7804Z" />
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M16.7465 10.9881C16.7465 14.1128 14.2375 16.6125 11.1013 16.6125C7.96503 16.6125 5.45605 14.1128 5.45605 10.9361C5.45605 7.86349 8.0173 5.36377 11.1535 5.36377C14.2375 5.36377 16.7465 7.86349 16.7465 10.9881ZM11.1006 14.6333C13.0868 14.6333 14.7595 12.9668 14.7595 10.9879C14.7595 9.00892 13.0868 7.34243 11.1006 7.34243C9.06201 7.34243 7.44162 9.00892 7.44162 10.9879C7.38936 12.9668 9.06201 14.6333 11.1006 14.6333Z" />
+                <path d="M18.264 5.10322C18.264 5.83232 17.689 6.45726 16.9572 6.45726C16.2255 6.45726 15.5982 5.83232 15.6505 5.10322C15.6505 4.37413 16.2255 3.80127 16.9572 3.80127C17.689 3.80127 18.264 4.37413 18.264 5.10322Z" />
+            </symbol>
+            <symbol id="linkedin" viewBox="0 0 22 22" fill="currentcolor" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M21.9951 13.4863V22.0004H17.3159V14.0456C17.3159 12.0569 16.6726 10.6897 14.9764 10.6897C13.6896 10.6897 12.9292 11.6219 12.5783 12.4919C12.4613 12.8027 12.4028 13.2377 12.4028 13.6727V22.0004H7.72369C7.72369 22.0004 7.78218 8.51452 7.72369 7.1473H12.4028V9.26029C12.4028 9.26029 12.4028 9.32242 12.3443 9.32242H12.4028V9.26029C13.0462 8.26594 14.099 6.77441 16.6141 6.77441C19.6555 6.77441 21.9951 8.94955 21.9951 13.4863V13.4863ZM2.92695 0C1.34773 0 0.294922 1.11864 0.294922 2.54802C0.294922 3.97739 1.28924 5.09605 2.86845 5.09605H2.92695C4.56465 5.09605 5.55897 3.9774 5.55897 2.54802C5.50048 1.11864 4.50616 0 2.92695 0V0ZM0.529401 22.0001H5.15007V7.14697H0.529401V22.0001Z" />
+            </symbol>
+            <symbol id="facebook" viewBox="0 0 22 22" fill="currentcolor" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M15.518 11.3881H12.5371V21.8001H8.09187V13.0916V11.3881H6V7.71327H8.09187V5.31442C8.09187 3.63012 8.92862 0.976074 12.5371 0.976074H15.8318V4.54882H13.4784C13.1124 4.54882 12.5371 4.75299 12.5371 5.56961V7.71327H15.8841L15.518 11.3881Z" />
+            </symbol>
+            <symbol id="X" viewBox="0 0 24 24" fill="currentcolor" xmlns="http://www.w3.org/2000/svg">
+                <path d="M 4.4042969 3 C 3.7572969 3 3.3780469 3.7287656 3.7480469 4.2597656 L 9.7363281 12.818359 L 3.7246094 19.845703 C 3.3356094 20.299703 3.6578594 21 4.2558594 21 L 4.9199219 21 C 5.2129219 21 5.4916406 20.871437 5.6816406 20.648438 L 10.919922 14.511719 L 14.863281 20.146484 C 15.238281 20.680484 15.849953 21 16.501953 21 L 19.835938 21 C 20.482937 21 20.862187 20.272188 20.492188 19.742188 L 14.173828 10.699219 L 19.900391 3.9902344 C 20.232391 3.6002344 19.955359 3 19.443359 3 L 18.597656 3 C 18.305656 3 18.027891 3.1276094 17.837891 3.3496094 L 12.996094 9.0097656 L 9.3945312 3.8554688 C 9.0205313 3.3194687 8.4098594 3 7.7558594 3 L 4.4042969 3 z" />
+            </symbol>
+            <symbol id="swiper-prev-arrow" viewBox="0 0 27 27" fill="currentcolor" xmlns="http://www.w3.org/2000/svg">
+                <path d="M11.2397 8.39036C10.8023 7.98657 10.1203 8.01384 9.71654 8.45128L6.23402 12.224C5.85287 12.6369 5.85286 13.2733 6.23401 13.6862L9.71653 17.459C10.1203 17.8965 10.8023 17.9237 11.2397 17.5199C11.6772 17.1161 11.7045 16.4342 11.3007 15.9967L9.48802 14.033L19.9611 14.033C20.5565 14.033 21.0391 13.5504 21.0391 12.9551C21.0391 12.3598 20.5565 11.8772 19.9611 11.8772L9.48805 11.8772L11.3007 9.91356C11.7044 9.47612 11.6772 8.79416 11.2397 8.39036Z" />
+            </symbol>
+            <symbol id="swiper-next-arrow" viewBox="0 0 27 27" fill="currentcolor" xmlns="http://www.w3.org/2000/svg">
+                <path d="M15.7603 8.39036C16.1977 7.98657 16.8797 8.01384 17.2835 8.45128L20.766 12.224C21.1471 12.6369 21.1471 13.2733 20.766 13.6862L17.2835 17.459C16.8797 17.8965 16.1977 17.9237 15.7603 17.5199C15.3228 17.1161 15.2955 16.4342 15.6993 15.9967L17.512 14.033L7.03886 14.033C6.44354 14.033 5.96094 13.5504 5.96094 12.9551C5.96094 12.3598 6.44354 11.8772 7.03886 11.8772L17.5119 11.8772L15.6993 9.91356C15.2956 9.47612 15.3228 8.79416 15.7603 8.39036Z" />
+            </symbol>
+            <symbol id="icon-widget-menu" viewBox="0 0 63 10" fill="currentcolor" xmlns="http://www.w3.org/2000/svg">
+                <ellipse cx="6.05765" cy="5" rx="6.05765" ry="5" />
+                <ellipse cx="32.6094" cy="5" rx="6.05765" ry="5" />
+                <ellipse cx="56.9424" cy="5" rx="6.05765" ry="5" />
+            </symbol>
+            <symbol id="layout-case__grid" viewBox="0 0 17 16" fill="#c5c5c5" xmlns="http://www.w3.org/2000/svg">
+                <rect x="0.5" y="0.5" width="16" height="15" rx="1.5" fill="white" />
+                <rect x="3.50049" y="3.49988" width="3.4" height="3.44444" rx="0.5" />
+                <rect x="3.5" y="9.05542" width="3.4" height="3.44444" rx="0.5" />
+                <rect x="10.1001" y="9.05542" width="3.4" height="3.44444" rx="0.5" />
+                <rect x="10.1001" y="3.49988" width="3.4" height="3.44444" rx="0.5" />
+            </symbol>
+            <symbol id="layout-case__list" viewBox="0 0 17 16" fill="currentcolor" xmlns="http://www.w3.org/2000/svg">
+                <rect x="0.5" y="0.5" width="16" height="15" rx="1.5" fill="white" />
+                <path d="M4 5H8.5H13" stroke-linecap="round" />
+                <path d="M4 8H8.5H13" stroke-linecap="round" />
+                <path d="M4 11H8.5H13" stroke-linecap="round" />
+            </symbol>
+            <symbol id="arrow-right" viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M4.98047 11.0703H17.8973 M11.4365 4.61328L17.8949 11.0717L11.4365 17.5301" stroke="currentcolor" stroke-width="1.84503" stroke-linecap="round" stroke-linejoin="round" />
+            </symbol>
+            <symbol id="arrows-down-up" viewBox="0 0 21 21" fill="currentcolor" xmlns="http://www.w3.org/2000/svg">
+                <path d="M15.0225 3.34912V18.2745" stroke="#1A202C" stroke-width="1.86567" stroke-linecap="round" stroke-linejoin="round" />
+                <path d="M9.21779 15.7869L6.73023 18.2744L4.24268 15.7869" stroke="#1A202C" stroke-width="1.86567" stroke-linecap="round" stroke-linejoin="round" />
+                <path d="M6.72998 18.2745V3.34912" stroke="#1A202C" stroke-width="1.86567" stroke-linecap="round" stroke-linejoin="round" />
+                <path d="M17.5103 5.83668L15.0227 3.34912L12.5352 5.83668" stroke="#1A202C" stroke-width="1.86567" stroke-linecap="round" stroke-linejoin="round" />
+            </symbol>
+        </svg>
+    </footer>
+
+    <script src="assets/js/jquery-3.7.1.min.js"></script>
+    <script src="assets/js/jquery.nice-select.min.js"></script>
+    <script src="assets/js/jquery.mask.min.js"></script>
+    <script src="assets/js/swiper-bundle.min.js"></script>
+    <script src="assets/js/widget.js"></script>
+    <script src="assets/js/accordion.js"></script>
+    <script src="assets/js/place-bid-modal.js"></script>
+    <script src="assets/js/tab.js"></script>
+    <script src="assets/js/drop-zone.js"></script>
+    <script src="assets/js/custom.js"></script>
+
+</body>
+
+</html>
