@@ -12,7 +12,7 @@ This project is a website created for showcasing and purchasing NFTs (Non-Fungib
 </ul>
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-<h1> Features <h/1>
+Features 
 The website has a simple and intuitive navigation system.
 
 It includes a page to view NFTs and their detailed descriptions.
