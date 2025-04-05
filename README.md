@@ -12,25 +12,25 @@ This project is a website created for showcasing and purchasing NFTs (Non-Fungib
 </ul>
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Features
-The website has a simple and intuitive navigation system.
+<h1> Features <h/1>
+<p>The website has a simple and intuitive navigation system.</p>
 
-It includes a page to view NFTs and their detailed descriptions.
+<p>It includes a page to view NFTs and their detailed descriptions.</p>
 
-Functionality to connect and display NFT token information is implemented.
+<p>Functionality to connect and display NFT token information is implemented.</p>
 
-Responsive design for a smooth experience on both mobile devices and desktops.
-
----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Installation
-To run the project locally, follow these steps:
-
-Clone the repository to your computer: git clone https://github.com/yourusername/NFT-WebSite.git
-
-Open the project in your text editor.
-
-Open the index.html file in your browser.
+<p>Responsive design for a smooth experience on both mobile devices and desktops.</p>
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Contributing
-If you'd like to make changes or improvements to this project, please create a pull request.
+<h1> Installation </h1>
+<h2> To run the project locally, follow these steps: </h2>
+
+<ol>
+  <li>Clone the repository to your computer: git clone https://github.com/yourusername/NFT-WebSite.git</li>
+  <li>Open the project in your text editor.</li>
+  <li>Open the index.html file in your browser.</li>
+</ol>
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<h1> Contributing </h1>
+<b><i>If you'd like to make changes or improvements to this project, please create a pull request.</i></b>
