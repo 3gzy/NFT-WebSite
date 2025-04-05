@@ -13,13 +13,13 @@ This project is a website created for showcasing and purchasing NFTs (Non-Fungib
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 <h1> Features <h/1>
-<p>The website has a simple and intuitive navigation system.</p>
+The website has a simple and intuitive navigation system.
 
-<p>It includes a page to view NFTs and their detailed descriptions.</p>
+It includes a page to view NFTs and their detailed descriptions.
 
-<p>Functionality to connect and display NFT token information is implemented.</p>
+Functionality to connect and display NFT token information is implemented.
 
-<p>Responsive design for a smooth experience on both mobile devices and desktops.</p>
+Responsive design for a smooth experience on both mobile devices and desktops.
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 <h1> Installation </h1>
